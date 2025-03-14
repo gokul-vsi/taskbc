@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require('mongoose')
 const cors = require('cors')
 const router = require('./router/router')
-mongoose.connect("mongodb+srv://gokulnithya23:DJLZSePUgosyNVtq@cluster0.8sjjl.mongodb.net/dbcheckergokul").then(()=>console.log("db connected")).catch((error)=>console.log(error))
+mongoose.connect("mongodb+srv://gokulnithya23:UOuO3xQPxsrCS2vA@cluster0.8sjjl.mongodb.net/dbcheckergokul").then(()=>console.log("db connected")).catch((error)=>console.log(error))
 
 app.use(express.json())
 app.use(cors())
